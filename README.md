@@ -1,4 +1,4 @@
-# Meridian &mdash; E-Commerce Web Application
+#Super.General Store
 
 A basic online store with product management and order tracking, built to match this spec:
 
