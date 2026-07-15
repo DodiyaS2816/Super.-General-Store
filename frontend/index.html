@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Super &mdash; General Store</title>
+<link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="#/catalog" class="wordmark">Super<span class="wordmark-dot">.</span></a>
+    <nav class="main-nav">
+      <a href="#/catalog" data-route="catalog">Catalog</a>
+      <a href="#/orders" data-route="orders" class="auth-only">Orders</a>
+      <a href="#/admin" data-route="admin" class="admin-only">Admin</a>
+    </nav>
+    <div class="header-actions">
+      <a href="#/cart" class="cart-link auth-only" aria-label="Cart">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="9" cy="21" r="1.4"/><circle cx="18" cy="21" r="1.4"/><path d="M2.5 3h2l2.3 12.3a2 2 0 0 0 2 1.7h8a2 2 0 0 0 2-1.6L21 7H6"/></svg>
+        <span id="cart-count" class="cart-count hidden">0</span>
+      </a>
+      <div id="account-area"></div>
+    </div>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<div id="toast" class="toast hidden"></div>
+
+<footer class="site-footer">
+  <p>Super. General Store 2026</p>
+</footer>
+
+<script src="/js/api.js"></script>
+<script src="/js/app.js"></script>
+</body>
+</html>
