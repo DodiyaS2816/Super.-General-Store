@@ -1,4 +1,4 @@
-#Super.General Store
+**#Super.General Store**
 
 A basic online store with product management and order tracking, built to match this spec:
 
